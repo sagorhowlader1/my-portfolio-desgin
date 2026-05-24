@@ -159,3 +159,53 @@ body{
     margin-bottom: 150px;
 }
 
+/* project section code start here */
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 48px 48px;
+    gap: 30px;
+    border-radius: 24px;
+    background: #FFFFFF;
+    margin-bottom: 60px;
+    border: 2px solid #872BFF;
+}
+
+.pro-image img{
+    width: 400px;
+    border-radius: 20px;
+}
+
+.pro-content{
+    margin: 0 30px;
+}
+
+.pro-content h2{
+    color: #0E0E0E80;
+    font-weight: bold;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+.pro-content p{
+    color: #0E0E0E70;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+
+/* footer section code start here */
+#footer-container{
+    margin-top: 150px;
+}
+.contents{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contents .social-content{
+   padding: 0 30px;
+}
