@@ -101,6 +101,12 @@ body{
     background: white;
     box-shadow: 0 11px 31px 0 #8C8C8C;
     border-radius: 16px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+.brands:hover{
+    background-color: #f1f1f1a8;
 }
 
 /* hero section code start here */
@@ -226,7 +232,6 @@ body{
     gap: 40px;
     flex-wrap: wrap;
 }
-
 
 .btn-container{
     text-align: center;
